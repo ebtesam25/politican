@@ -7,7 +7,6 @@ import Splash from './screens/splash';
 import TheMap from './screens/map';
 import Details from './screens/details';
 import State from './screens/state';
-import Radio from './screens/radioactivity';
 
 
 const Stack = createStackNavigator();
@@ -46,11 +45,7 @@ function MyStack() {
         component={State} 
         options={{ headerShown: false}} 
       />
-      <Stack.Screen 
-        name="Radio" 
-        component={Radio} 
-        options={{ headerShown: false}} 
-      />
+ 
       
     </Stack.Navigator>
   );
